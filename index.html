@@ -99,7 +99,7 @@
   function sendURL(URL) {
     var sel = document.getElementById("format");
     var qualsel = document.getElementById("quality");
-    window.location.href = `/download?URL=${URL}&format=${
+    window.location.href = `yezytbdownloader.vercel.app/download?URL=${URL}&format=${
       sel.options[sel.selectedIndex].text
     }&quality=${qualsel.options[qualsel.selectedIndex].text
       .toLowerCase()
